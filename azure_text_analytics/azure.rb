@@ -80,7 +80,6 @@ require File.join(here, "utility")
         #puts "Saved text to #{text_path}"
         # Write the raw JSON data out into a file.
         json_path = "#{dirname}/#{basename}.azure.json"
-        puts "Writing to #{json_path}"
         File.open(json_path, 'w'){ |f| f.puts data.to_json }
         puts "Saved json to #{json_path}"
       end
