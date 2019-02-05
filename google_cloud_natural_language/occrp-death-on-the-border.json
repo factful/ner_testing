@@ -1,0 +1,965 @@
+{
+  "entities": [
+    {
+      "name": "employees",
+      "type": "PERSON",
+      "salience": 0.13012492656707764,
+      "mentions": [
+        {
+          "text": {
+            "content": "employees",
+            "beginOffset": 24
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Colombia",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colombia",
+        "mid": "/m/01ls2"
+      },
+      "salience": 0.08673621714115143,
+      "mentions": [
+        {
+          "text": {
+            "content": "Colombia",
+            "beginOffset": 149
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Colombia",
+            "beginOffset": 1374
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Colombia",
+            "beginOffset": 1413
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Colombia",
+            "beginOffset": 1498
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Javier Ortega",
+      "type": "PERSON",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Javier_Ortega_Smith",
+        "mid": "/g/11fd6dj79y"
+      },
+      "salience": 0.06788957864046097,
+      "mentions": [
+        {
+          "text": {
+            "content": "Javier Ortega",
+            "beginOffset": 207
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "reporter",
+            "beginOffset": 198
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "El Comercio",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/El_Comercio_(Peru)",
+        "mid": "/m/02f4z6"
+      },
+      "salience": 0.053785622119903564,
+      "mentions": [
+        {
+          "text": {
+            "content": "newspaper",
+            "beginOffset": 52
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "El Comercio",
+            "beginOffset": 62
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "El Comercio",
+            "beginOffset": 785
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "border",
+      "type": "LOCATION",
+      "salience": 0.05179424211382866,
+      "mentions": [
+        {
+          "text": {
+            "content": "border",
+            "beginOffset": 122
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "region",
+      "type": "LOCATION",
+      "salience": 0.0456111840903759,
+      "mentions": [
+        {
+          "text": {
+            "content": "region",
+            "beginOffset": 108
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "guerillas",
+      "type": "PERSON",
+      "salience": 0.040929608047008514,
+      "mentions": [
+        {
+          "text": {
+            "content": "guerillas",
+            "beginOffset": 350
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Ecuadorian",
+      "type": "LOCATION",
+      "metadata": {
+        "mid": "/m/02k1b",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ecuador"
+      },
+      "salience": 0.0290193110704422,
+      "mentions": [
+        {
+          "text": {
+            "content": "Ecuadorian",
+            "beginOffset": 41
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Ecuadorian",
+            "beginOffset": 1206
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Ecuador",
+            "beginOffset": 137
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Ecuador",
+            "beginOffset": 492
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Ecuador",
+            "beginOffset": 1449
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Ecuador",
+            "beginOffset": 1472
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Mataje River",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mataje_River",
+        "mid": "/g/121jytxq"
+      },
+      "salience": 0.02716219052672386,
+      "mentions": [
+        {
+          "text": {
+            "content": "Mataje River",
+            "beginOffset": 95
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "captivity",
+      "type": "OTHER",
+      "salience": 0.022091073915362358,
+      "mentions": [
+        {
+          "text": {
+            "content": "captivity",
+            "beginOffset": 187
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Paul Rivas",
+      "type": "PERSON",
+      "salience": 0.018799088895320892,
+      "mentions": [
+        {
+          "text": {
+            "content": "Paul Rivas",
+            "beginOffset": 235
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "photographer",
+            "beginOffset": 222
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Efrain Segarra",
+      "type": "PERSON",
+      "salience": 0.018799088895320892,
+      "mentions": [
+        {
+          "text": {
+            "content": "driver",
+            "beginOffset": 257
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Efrain Segarra",
+            "beginOffset": 265
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Oliver Sinisterra Front",
+      "type": "ORGANIZATION",
+      "salience": 0.018799088895320892,
+      "mentions": [
+        {
+          "text": {
+            "content": "Oliver Sinisterra Front",
+            "beginOffset": 302
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "group",
+            "beginOffset": 329
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "reporters",
+      "type": "PERSON",
+      "salience": 0.017057005316019058,
+      "mentions": [
+        {
+          "text": {
+            "content": "reporters",
+            "beginOffset": 1087
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "season",
+      "type": "EVENT",
+      "salience": 0.014364722184836864,
+      "mentions": [
+        {
+          "text": {
+            "content": "season",
+            "beginOffset": 442
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "El Guacho",
+      "type": "PERSON",
+      "salience": 0.011649944819509983,
+      "mentions": [
+        {
+          "text": {
+            "content": "El Guacho",
+            "beginOffset": 831
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "guerilla leader",
+            "beginOffset": 846
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "police",
+      "type": "ORGANIZATION",
+      "salience": 0.010857605375349522,
+      "mentions": [
+        {
+          "text": {
+            "content": "police",
+            "beginOffset": 900
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "colleagues",
+      "type": "PERSON",
+      "salience": 0.009948179125785828,
+      "mentions": [
+        {
+          "text": {
+            "content": "colleagues",
+            "beginOffset": 1217
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Fundacion para la Libertad de la Prensa",
+      "type": "OTHER",
+      "salience": 0.00874300580471754,
+      "mentions": [
+        {
+          "text": {
+            "content": "project",
+            "beginOffset": 1318
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Fundacion para la Libertad de la Prensa",
+            "beginOffset": 1327
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "drug traffickers",
+      "type": "PERSON",
+      "salience": 0.008398116566240788,
+      "mentions": [
+        {
+          "text": {
+            "content": "drug traffickers",
+            "beginOffset": 364
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "abduction",
+      "type": "EVENT",
+      "salience": 0.0081058070063591,
+      "mentions": [
+        {
+          "text": {
+            "content": "abduction",
+            "beginOffset": 1176
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "version",
+      "type": "WORK_OF_ART",
+      "salience": 0.006926375906914473,
+      "mentions": [
+        {
+          "text": {
+            "content": "version",
+            "beginOffset": 540
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "border",
+      "type": "LOCATION",
+      "salience": 0.006459549535065889,
+      "mentions": [
+        {
+          "text": {
+            "content": "border",
+            "beginOffset": 702
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "murders",
+      "type": "PERSON",
+      "salience": 0.00642085075378418,
+      "mentions": [
+        {
+          "text": {
+            "content": "murders",
+            "beginOffset": 421
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "government representative",
+      "type": "PERSON",
+      "salience": 0.006416678428649902,
+      "mentions": [
+        {
+          "text": {
+            "content": "government representative",
+            "beginOffset": 658
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "staff",
+      "type": "PERSON",
+      "salience": 0.005874748341739178,
+      "mentions": [
+        {
+          "text": {
+            "content": "staff",
+            "beginOffset": 797
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "families",
+      "type": "PERSON",
+      "salience": 0.005690416321158409,
+      "mentions": [
+        {
+          "text": {
+            "content": "families",
+            "beginOffset": 608
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "victims",
+      "type": "PERSON",
+      "salience": 0.005690416321158409,
+      "mentions": [
+        {
+          "text": {
+            "content": "victims",
+            "beginOffset": 599
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "answers",
+      "type": "OTHER",
+      "salience": 0.005690416321158409,
+      "mentions": [
+        {
+          "text": {
+            "content": "answers",
+            "beginOffset": 639
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "journalists",
+      "type": "PERSON",
+      "salience": 0.005674834828823805,
+      "mentions": [
+        {
+          "text": {
+            "content": "journalists",
+            "beginOffset": 722
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "release",
+      "type": "EVENT",
+      "salience": 0.005674834828823805,
+      "mentions": [
+        {
+          "text": {
+            "content": "release",
+            "beginOffset": 735
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "jungle",
+      "type": "LOCATION",
+      "salience": 0.005669000558555126,
+      "mentions": [
+        {
+          "text": {
+            "content": "jungle",
+            "beginOffset": 409
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "violence",
+      "type": "OTHER",
+      "salience": 0.005640826188027859,
+      "mentions": [
+        {
+          "text": {
+            "content": "violence",
+            "beginOffset": 463
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "likes",
+      "type": "OTHER",
+      "salience": 0.005640826188027859,
+      "mentions": [
+        {
+          "text": {
+            "content": "likes",
+            "beginOffset": 477
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "inconsistencies",
+      "type": "OTHER",
+      "salience": 0.005620920564979315,
+      "mentions": [
+        {
+          "text": {
+            "content": "inconsistencies",
+            "beginOffset": 574
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "events",
+      "type": "EVENT",
+      "salience": 0.005620920564979315,
+      "mentions": [
+        {
+          "text": {
+            "content": "events",
+            "beginOffset": 551
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "area",
+      "type": "LOCATION",
+      "salience": 0.00519541697576642,
+      "mentions": [
+        {
+          "text": {
+            "content": "area",
+            "beginOffset": 820
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "communications channel",
+      "type": "OTHER",
+      "salience": 0.0051855831407010555,
+      "mentions": [
+        {
+          "text": {
+            "content": "communications channel",
+            "beginOffset": 955
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "ignorance",
+      "type": "OTHER",
+      "salience": 0.0051855831407010555,
+      "mentions": [
+        {
+          "text": {
+            "content": "ignorance",
+            "beginOffset": 926
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "FARC",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Revolutionary_Armed_Forces_of_Colombia",
+        "mid": "/m/06hvg"
+      },
+      "salience": 0.004968211054801941,
+      "mentions": [
+        {
+          "text": {
+            "content": "FARC",
+            "beginOffset": 345
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "reporting",
+      "type": "OTHER",
+      "salience": 0.004869799595326185,
+      "mentions": [
+        {
+          "text": {
+            "content": "reporting",
+            "beginOffset": 1258
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "civilians",
+      "type": "PERSON",
+      "salience": 0.004651315044611692,
+      "mentions": [
+        {
+          "text": {
+            "content": "civilians",
+            "beginOffset": 885
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "organizations",
+      "type": "ORGANIZATION",
+      "salience": 0.0038963076658546925,
+      "mentions": [
+        {
+          "text": {
+            "content": "organizations",
+            "beginOffset": 1273
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "transcripts",
+      "type": "WORK_OF_ART",
+      "salience": 0.0036389257293194532,
+      "mentions": [
+        {
+          "text": {
+            "content": "transcripts",
+            "beginOffset": 1003
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "OCCRP",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Organized_Crime_and_Corruption_Reporting_Project",
+        "mid": "/m/0fqrw3j"
+      },
+      "salience": 0.002303163753822446,
+      "mentions": [
+        {
+          "text": {
+            "content": "OCCRP",
+            "beginOffset": 1305
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "FLIP",
+      "type": "ORGANIZATION",
+      "salience": 0.002303163753822446,
+      "mentions": [
+        {
+          "text": {
+            "content": "FLIP",
+            "beginOffset": 1368
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "murder",
+      "type": "EVENT",
+      "salience": 0.00194813113193959,
+      "mentions": [
+        {
+          "text": {
+            "content": "murder",
+            "beginOffset": 1190
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "photojournalists",
+      "type": "PERSON",
+      "salience": 0.00194813113193959,
+      "mentions": [
+        {
+          "text": {
+            "content": "photojournalists",
+            "beginOffset": 1098
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Fundamedios",
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://es.wikipedia.org/wiki/Fundamedios",
+        "mid": "/g/11bw8dqyhf"
+      },
+      "salience": 0.001835139119066298,
+      "mentions": [
+        {
+          "text": {
+            "content": "Fundamedios",
+            "beginOffset": 1459
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "rebels",
+      "type": "PERSON",
+      "salience": 0.0017138775438070297,
+      "mentions": [
+        {
+          "text": {
+            "content": "rebels",
+            "beginOffset": 987
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "videographers",
+      "type": "PERSON",
+      "salience": 0.001711062854155898,
+      "mentions": [
+        {
+          "text": {
+            "content": "videographers",
+            "beginOffset": 1120
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "team",
+      "type": "ORGANIZATION",
+      "salience": 0.001711062854155898,
+      "mentions": [
+        {
+          "text": {
+            "content": "team",
+            "beginOffset": 1066
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "La Liga Contra El Silencio",
+      "type": "CONSUMER_GOOD",
+      "salience": 0.0016118112253025174,
+      "mentions": [
+        {
+          "text": {
+            "content": "La Liga Contra El Silencio",
+            "beginOffset": 1385
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Periodistas sin Cadenas",
+      "type": "ORGANIZATION",
+      "salience": 0.0016118112253025174,
+      "mentions": [
+        {
+          "text": {
+            "content": "Periodistas sin Cadenas",
+            "beginOffset": 1424
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Verdad Abierta",
+      "type": "OTHER",
+      "salience": 0.0016118112253025174,
+      "mentions": [
+        {
+          "text": {
+            "content": "Verdad Abierta",
+            "beginOffset": 1482
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Forbidden Stories",
+      "type": "WORK_OF_ART",
+      "salience": 0.0016118112253025174,
+      "mentions": [
+        {
+          "text": {
+            "content": "Forbidden Stories",
+            "beginOffset": 1513
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/France",
+        "mid": "/m/0f8l9c"
+      },
+      "salience": 0.0016118112253025174,
+      "mentions": [
+        {
+          "text": {
+            "content": "France",
+            "beginOffset": 1532
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "intentions",
+      "type": "OTHER",
+      "salience": 0.0008924856665544212,
+      "mentions": [
+        {
+          "text": {
+            "content": "intentions",
+            "beginOffset": 1034
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
