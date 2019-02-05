@@ -44,6 +44,11 @@ for input_path in glob.glob(os.path.join(dirname, '..', 'documents', '*.txt')):
         content=text,
         type=enums.Document.Type.PLAIN_TEXT)
 
+    # Detect and send native Python encoding to receive correct word offsets.
+    encoding = enums.EncodingType.UTF32
+    if sys.maxunicode == 65535:
+        encoding = enums.EncodingType.UTF16
+
     # Detects entities in the document. You can also analyze HTML with:
     #   document.type == enums.Document.Type.HTML
     response = client.analyze_entities(document, encoding)
