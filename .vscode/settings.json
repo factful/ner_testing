@@ -1,4 +1,4 @@
 {
   "python.venvPath": "${workspaceFolder}/venv",
-  "python.pythonPath": "venv/spacy/bin/python3.6"
+  "python.pythonPath": "venv/ner/bin/python"
 }
