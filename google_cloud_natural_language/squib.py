@@ -4,10 +4,12 @@ from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
 from google.protobuf.json_format import MessageToJson
+from spacy import displacy
 
 import glob
 import os
 import sys
+import json
 
 def print_entities(entities):
     for entity in entities:
@@ -25,10 +27,45 @@ def write_entity_json(response, path):
     with open(path, 'w') as out:
         out.write(json_string)
 
+def htmlize(text_path, entity_path):
+    with open(text_path) as text_file:
+        text = text_file.read()
+        with open(entity_path) as entity_file:
+            entity_data = json.load(entity_file)
+            #[[entity['type'], mention['text']['beginOffset'], len(mention['text']['content'])] for entity in data['entities'] for mention in entity['mentions'] ]
+            token_list = []
+            for entity in entity_data['entities']:
+                print("========================")
+                derp = entity["name"]
+                ent_type = entity["type"]
+                token_count = len(entity['mentions'])
+                print(f"{derp} | {ent_type} | {token_count}")
+                print('------------------------')
+                for mention in entity['mentions']:
+                    start_position = mention['text']['beginOffset']
+                    end_position = start_position + len(mention['text']['content'])
+                    print(f"Looking for: '{mention['text']['content']}' {start_position} | Found: '{text[start_position:end_position]}'")
+                    token = {
+                        'label': entity['type'], 
+                        'start': start_position,
+                        'end':   end_position
+                    }
+                    token_list.append(token)
+
+            render_data = [{
+                'text': text,
+                'ents': token_list
+            }]
+            print(render_data)
+            html = displacy.render(render_data, style="ent", manual=True)
+            html_path = os.path.join(entity_path.replace('.json', '.html'))
+            with open(html_path, 'w') as out:
+                out.write(html)
+
 
 dirname = os.path.dirname(__file__)
-for input_path in glob.glob(os.path.join(dirname, '..', 'documents', '*.txt')):
-    f = open(input_path, 'r')
+for text_path in glob.glob(os.path.join(dirname, '..', 'documents', '*.txt')):
+    f = open(text_path, 'r')
     text = "\n".join(f.readlines())
     
     #text = 'President Kennedy spoke at the White House.'
@@ -51,8 +88,9 @@ for input_path in glob.glob(os.path.join(dirname, '..', 'documents', '*.txt')):
 
     # Detects entities in the document. You can also analyze HTML with:
     #   document.type == enums.Document.Type.HTML
-    response = client.analyze_entities(document, encoding)
-    print_entities(response.entities)
-    basename = os.path.basename(input_path)
-    outpath = os.path.join(dirname, basename.replace('.txt', '.json'))
-    write_entity_json(response, outpath)
+    #response = client.analyze_entities(document, encoding)
+    #print_entities(response.entities)
+    basename = os.path.basename(text_path)
+    json_path = os.path.join(dirname, basename.replace('.txt', '.json'))
+    #write_entity_json(response, json_path)
+    htmlize(text_path, json_path)
