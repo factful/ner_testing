@@ -1,1251 +1,1194 @@
 {
   "entities": [
     {
-      "mentions": [
-        {
-          "text": {
-            "beginOffset": 428,
-            "content": "Whitefish"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 942,
-            "content": "Whitefish"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 1144,
-            "content": "Whitefish"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 1276,
-            "content": "Whitefish"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 768,
-            "content": "Whitefish"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 1902,
-            "content": "Whitefish"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 1722,
-            "content": "Whitefish"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 1818,
-            "content": "Whitefish"
-          },
-          "type": "PROPER"
-        }
-      ],
-      "metadata": {
-        "mid": "/m/0x1x6",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Whitefish,_Montana"
-      },
       "name": "Whitefish",
-      "salience": 0.11428838,
-      "type": "LOCATION"
-    },
-    {
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Whitefish,_Montana",
+        "mid": "/m/0x1x6"
+      },
+      "salience": 0.11428838223218918,
       "mentions": [
         {
           "text": {
-            "beginOffset": 202,
-            "content": "utility companies"
+            "content": "Whitefish",
+            "beginOffset": 428
           },
-          "type": "COMMON"
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Whitefish",
+            "beginOffset": 942
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Whitefish",
+            "beginOffset": 1144
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Whitefish",
+            "beginOffset": 1276
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Whitefish",
+            "beginOffset": 768
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Whitefish",
+            "beginOffset": 1902
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Whitefish",
+            "beginOffset": 1722
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Whitefish",
+            "beginOffset": 1818
+          },
+          "type": "PROPER"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "utility companies",
-      "salience": 0.0915591,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "salience": 0.09155909717082977,
       "mentions": [
         {
           "text": {
-            "beginOffset": 8,
-            "content": "Puerto Rico"
+            "content": "utility companies",
+            "beginOffset": 202
           },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 89,
-            "content": "Puerto Rico"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 900,
-            "content": "Puerto Rico"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 2010,
-            "content": "Puerto Rico"
-          },
-          "type": "PROPER"
+          "type": "COMMON"
         }
-      ],
-      "metadata": {
-        "mid": "/m/05r7t",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Puerto_Rico"
-      },
+      ]
+    },
+    {
       "name": "Puerto Rico",
-      "salience": 0.07854256,
-      "type": "LOCATION"
-    },
-    {
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Puerto_Rico",
+        "mid": "/m/05r7t"
+      },
+      "salience": 0.078542560338974,
       "mentions": [
         {
           "text": {
-            "beginOffset": 68,
-            "content": "company"
+            "content": "Puerto Rico",
+            "beginOffset": 8
           },
-          "type": "COMMON"
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Puerto Rico",
+            "beginOffset": 89
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Puerto Rico",
+            "beginOffset": 900
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Puerto Rico",
+            "beginOffset": 2010
+          },
+          "type": "PROPER"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "company",
-      "salience": 0.059891906,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "salience": 0.05989190563559532,
       "mentions": [
         {
           "text": {
-            "beginOffset": 41,
-            "content": "contract"
+            "content": "company",
+            "beginOffset": 68
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "contract",
-      "salience": 0.054733705,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.05473370477557182,
       "mentions": [
         {
           "text": {
-            "beginOffset": 20,
-            "content": "award"
+            "content": "contract",
+            "beginOffset": 41
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "award",
-      "salience": 0.03874606,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.03874605894088745,
       "mentions": [
         {
           "text": {
-            "beginOffset": 60,
-            "content": "Montana"
+            "content": "award",
+            "beginOffset": 20
           },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 419,
-            "content": "Montana"
-          },
-          "type": "PROPER"
+          "type": "COMMON"
         }
-      ],
-      "metadata": {
-        "mid": "/m/050l8",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Montana"
-      },
+      ]
+    },
+    {
       "name": "Montana",
-      "salience": 0.037441775,
-      "type": "LOCATION"
-    },
-    {
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Montana",
+        "mid": "/m/050l8"
+      },
+      "salience": 0.03744177520275116,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1222,
-            "content": "Donald Trump"
+            "content": "Montana",
+            "beginOffset": 60
           },
           "type": "PROPER"
         },
         {
           "text": {
-            "beginOffset": 1212,
-            "content": "President"
-          },
-          "type": "COMMON"
-        },
-        {
-          "text": {
-            "beginOffset": 1469,
-            "content": "Trump"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 1553,
-            "content": "Trump"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 1780,
-            "content": "Trump"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 1937,
-            "content": "Trump"
+            "content": "Montana",
+            "beginOffset": 419
           },
           "type": "PROPER"
         }
-      ],
-      "metadata": {
-        "mid": "/m/0cqt90",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Donald_Trump"
-      },
+      ]
+    },
+    {
       "name": "Donald Trump",
-      "salience": 0.036399752,
-      "type": "PERSON"
-    },
-    {
+      "type": "PERSON",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Donald_Trump",
+        "mid": "/m/0cqt90"
+      },
+      "salience": 0.03639975190162659,
       "mentions": [
         {
           "text": {
-            "beginOffset": 164,
-            "content": "task"
+            "content": "Donald Trump",
+            "beginOffset": 1222
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "President",
+            "beginOffset": 1212
           },
           "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Trump",
+            "beginOffset": 1469
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Trump",
+            "beginOffset": 1553
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Trump",
+            "beginOffset": 1780
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "Trump",
+            "beginOffset": 1937
+          },
+          "type": "PROPER"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "task",
-      "salience": 0.023043402,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.023043401539325714,
       "mentions": [
         {
           "text": {
-            "beginOffset": 174,
-            "content": "one"
+            "content": "task",
+            "beginOffset": 164
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "one",
-      "salience": 0.020898663,
-      "type": "PERSON"
-    },
-    {
+      "type": "PERSON",
+      "salience": 0.020898662507534027,
       "mentions": [
         {
           "text": {
-            "beginOffset": 105,
-            "content": "electricity system"
+            "content": "one",
+            "beginOffset": 174
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "electricity system",
-      "salience": 0.01872173,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.018721729516983032,
       "mentions": [
         {
           "text": {
-            "beginOffset": 301,
-            "content": "government contract"
+            "content": "electricity system",
+            "beginOffset": 105
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "government contract",
-      "salience": 0.018530063,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.018530063331127167,
       "mentions": [
         {
           "text": {
-            "beginOffset": 130,
-            "content": "Hurricane Maria"
+            "content": "government contract",
+            "beginOffset": 301
           },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 476,
-            "content": "Maria"
-          },
-          "type": "PROPER"
+          "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "Hurricane Maria",
-      "salience": 0.016505007,
-      "type": "PERSON"
-    },
-    {
+      "type": "PERSON",
+      "salience": 0.016505006700754166,
       "mentions": [
         {
           "text": {
-            "beginOffset": 369,
-            "content": "Whitefish Energy"
+            "content": "Hurricane Maria",
+            "beginOffset": 130
           },
           "type": "PROPER"
         },
         {
           "text": {
-            "beginOffset": 402,
-            "content": "company"
+            "content": "Maria",
+            "beginOffset": 476
           },
-          "type": "COMMON"
+          "type": "PROPER"
         }
-      ],
-      "metadata": {
-        "mid": "/g/11fzxlb77c",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Whitefish_Energy"
-      },
+      ]
+    },
+    {
       "name": "Whitefish Energy",
-      "salience": 0.015847722,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Whitefish_Energy",
+        "mid": "/g/11fzxlb77c"
+      },
+      "salience": 0.015847722068428993,
       "mentions": [
         {
           "text": {
-            "beginOffset": 916,
-            "content": "power authority"
+            "content": "Whitefish Energy",
+            "beginOffset": 369
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "company",
+            "beginOffset": 402
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "power authority",
-      "salience": 0.01290928,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "salience": 0.012909280136227608,
       "mentions": [
         {
           "text": {
-            "beginOffset": 2107,
-            "content": "all"
-          },
-          "type": "COMMON"
-        },
-        {
-          "text": {
-            "beginOffset": 2137,
-            "content": "coincidence"
+            "content": "power authority",
+            "beginOffset": 916
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "coincidence",
-      "salience": 0.011964769,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.011964769102633,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1691,
-            "content": "Beast"
+            "content": "all",
+            "beginOffset": 2107
           },
-          "type": "PROPER"
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "coincidence",
+            "beginOffset": 2137
+          },
+          "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "Beast",
-      "salience": 0.0116679035,
-      "type": "CONSUMER_GOOD"
-    },
-    {
+      "type": "CONSUMER_GOOD",
+      "salience": 0.011667903512716293,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1239,
-            "content": "The Daily Beast"
+            "content": "Beast",
+            "beginOffset": 1691
           },
           "type": "PROPER"
         }
-      ],
-      "metadata": {
-        "mid": "/m/04mzd6n",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Daily_Beast"
-      },
+      ]
+    },
+    {
       "name": "The Daily Beast",
-      "salience": 0.011261007,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Daily_Beast",
+        "mid": "/m/04mzd6n"
+      },
+      "salience": 0.011261006817221642,
       "mentions": [
         {
           "text": {
-            "beginOffset": 181,
-            "content": "America"
+            "content": "The Daily Beast",
+            "beginOffset": 1239
           },
           "type": "PROPER"
         }
-      ],
-      "metadata": {
-        "mid": "/m/09c7w0",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/United_States"
-      },
+      ]
+    },
+    {
       "name": "America",
-      "salience": 0.011092462,
-      "type": "LOCATION"
-    },
-    {
-      "mentions": [
-        {
-          "text": {
-            "beginOffset": 1768,
-            "content": "Ryan Zinke"
-          },
-          "type": "PROPER"
-        },
-        {
-          "text": {
-            "beginOffset": 1790,
-            "content": "secretary"
-          },
-          "type": "COMMON"
-        },
-        {
-          "text": {
-            "beginOffset": 1860,
-            "content": "Zinke"
-          },
-          "type": "PROPER"
-        }
-      ],
+      "type": "LOCATION",
       "metadata": {
-        "mid": "/m/0gkz1jg",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Ryan_Zinke"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/United_States",
+        "mid": "/m/09c7w0"
       },
-      "name": "Ryan Zinke",
-      "salience": 0.0090318555,
-      "type": "PERSON"
-    },
-    {
+      "salience": 0.01109246164560318,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1736,
-            "content": "Andy Techmanski"
+            "content": "America",
+            "beginOffset": 181
+          },
+          "type": "PROPER"
+        }
+      ]
+    },
+    {
+      "name": "Ryan Zinke",
+      "type": "PERSON",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ryan_Zinke",
+        "mid": "/m/0gkz1jg"
+      },
+      "salience": 0.009031855501234531,
+      "mentions": [
+        {
+          "text": {
+            "content": "Ryan Zinke",
+            "beginOffset": 1768
           },
           "type": "PROPER"
         },
         {
           "text": {
-            "beginOffset": 1732,
-            "content": "CEO"
+            "content": "secretary",
+            "beginOffset": 1790
           },
           "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "Zinke",
+            "beginOffset": 1860
+          },
+          "type": "PROPER"
         }
-      ],
+      ]
+    },
+    {
+      "name": "Andy Techmanski",
+      "type": "PERSON",
       "metadata": {
         "mid": "/g/11f_j793fv"
       },
-      "name": "Andy Techmanski",
-      "salience": 0.008874159,
-      "type": "PERSON"
-    },
-    {
+      "salience": 0.008874159306287766,
       "mentions": [
         {
           "text": {
-            "beginOffset": 253,
-            "content": "Washington Post"
+            "content": "Andy Techmanski",
+            "beginOffset": 1736
           },
           "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "CEO",
+            "beginOffset": 1732
+          },
+          "type": "COMMON"
         }
-      ],
+      ]
+    },
+    {
+      "name": "Washington Post",
+      "type": "ORGANIZATION",
       "metadata": {
         "mid": "/m/0px38",
         "wikipedia_url": "https://en.wikipedia.org/wiki/The_Washington_Post"
       },
-      "name": "Washington Post",
-      "salience": 0.008221641,
-      "type": "ORGANIZATION"
-    },
-    {
+      "salience": 0.008221641182899475,
       "mentions": [
         {
           "text": {
-            "beginOffset": 966,
-            "content": "company"
+            "content": "Washington Post",
+            "beginOffset": 253
           },
-          "type": "COMMON"
+          "type": "PROPER"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "company",
-      "salience": 0.0081300195,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "salience": 0.008130019530653954,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1088,
-            "content": "company"
+            "content": "company",
+            "beginOffset": 966
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "company",
-      "salience": 0.008015615,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "salience": 0.008015614934265614,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1886,
-            "content": "inexperience"
+            "content": "company",
+            "beginOffset": 1088
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "inexperience",
-      "salience": 0.007969383,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.007969383150339127,
       "mentions": [
         {
           "text": {
-            "beginOffset": 687,
-            "content": "company"
+            "content": "inexperience",
+            "beginOffset": 1886
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "company",
-      "salience": 0.0073857903,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "salience": 0.0073857903480529785,
       "mentions": [
         {
           "text": {
-            "beginOffset": 343,
-            "content": "relief effort"
+            "content": "company",
+            "beginOffset": 687
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "relief effort",
-      "salience": 0.007072145,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.007072145119309425,
       "mentions": [
         {
           "text": {
-            "beginOffset": 461,
-            "content": "employees"
+            "content": "relief effort",
+            "beginOffset": 343
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "employees",
-      "salience": 0.0070471973,
-      "type": "PERSON"
-    },
-    {
+      "type": "PERSON",
+      "salience": 0.007047197315841913,
       "mentions": [
         {
           "text": {
-            "beginOffset": 886,
-            "content": "contracts"
+            "content": "employees",
+            "beginOffset": 461
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "contracts",
-      "salience": 0.0068207043,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.006820704322308302,
       "mentions": [
         {
           "text": {
-            "beginOffset": 549,
-            "content": "contract"
+            "content": "contracts",
+            "beginOffset": 886
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "contract",
-      "salience": 0.0067559183,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.006755918264389038,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1040,
-            "content": "terms"
+            "content": "contract",
+            "beginOffset": 549
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "terms",
-      "salience": 0.005453519,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.005453519057482481,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1073,
-            "content": "authority"
+            "content": "terms",
+            "beginOffset": 1040
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "authority",
-      "salience": 0.005453519,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "salience": 0.005453519057482481,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1015,
-            "content": "ones"
+            "content": "authority",
+            "beginOffset": 1073
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "ones",
-      "salience": 0.0054300767,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.005430076736956835,
       "mentions": [
         {
           "text": {
-            "beginOffset": 760,
-            "content": "people"
+            "content": "ones",
+            "beginOffset": 1015
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "people",
-      "salience": 0.0053989817,
-      "type": "PERSON"
-    },
-    {
+      "type": "PERSON",
+      "salience": 0.005398981738835573,
       "mentions": [
         {
           "text": {
-            "beginOffset": 721,
-            "content": "electricity"
+            "content": "people",
+            "beginOffset": 760
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "electricity",
-      "salience": 0.0051413123,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.0051413122564554214,
       "mentions": [
         {
           "text": {
-            "beginOffset": 807,
-            "content": "business model"
+            "content": "electricity",
+            "beginOffset": 721
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "business model",
-      "salience": 0.0048013898,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.0048013897612690926,
       "mentions": [
         {
           "text": {
-            "beginOffset": 864,
-            "content": "workers"
+            "content": "business model",
+            "beginOffset": 807
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "workers",
-      "salience": 0.0048013898,
-      "type": "PERSON"
-    },
-    {
+      "type": "PERSON",
+      "salience": 0.0048013897612690926,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1050,
-            "content": "conditions"
+            "content": "workers",
+            "beginOffset": 864
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "conditions",
-      "salience": 0.004790639,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.004790639039129019,
       "mentions": [
         {
           "text": {
-            "beginOffset": 609,
-            "content": "island"
+            "content": "conditions",
+            "beginOffset": 1050
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "island",
-      "salience": 0.004755748,
-      "type": "LOCATION"
-    },
-    {
+      "type": "LOCATION",
+      "salience": 0.0047557479701936245,
       "mentions": [
         {
           "text": {
-            "beginOffset": 631,
-            "content": "infrastructure"
+            "content": "island",
+            "beginOffset": 609
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
-      "name": "infrastructure",
-      "salience": 0.004755748,
-      "type": "OTHER"
+      ]
     },
     {
+      "name": "infrastructure",
+      "type": "OTHER",
+      "salience": 0.0047557479701936245,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1356,
-            "content": "founder"
+            "content": "infrastructure",
+            "beginOffset": 631
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "Joe Colonnetta",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/g/11f0zftpr_"
+      },
+      "salience": 0.0047479900531470776,
+      "mentions": [
+        {
+          "text": {
+            "content": "founder",
+            "beginOffset": 1356
           },
           "type": "COMMON"
         },
         {
           "text": {
-            "beginOffset": 1365,
-            "content": "Joe Colonnetta"
+            "content": "Joe Colonnetta",
+            "beginOffset": 1365
           },
           "type": "PROPER"
         }
-      ],
-      "metadata": {
-        "mid": "/g/11f0zftpr_"
-      },
-      "name": "Joe Colonnetta",
-      "salience": 0.00474799,
-      "type": "PERSON"
+      ]
     },
     {
-      "mentions": [
-        {
-          "text": {
-            "beginOffset": 790,
-            "content": "explanation"
-          },
-          "type": "COMMON"
-        }
-      ],
-      "metadata": {},
       "name": "explanation",
-      "salience": 0.0046275132,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.004627513233572245,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1108,
-            "content": "expertise"
+            "content": "explanation",
+            "beginOffset": 790
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "expertise",
-      "salience": 0.004387226,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.004387225955724716,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1133,
-            "content": "areas"
+            "content": "expertise",
+            "beginOffset": 1108
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "areas",
-      "salience": 0.004387226,
-      "type": "LOCATION"
-    },
-    {
+      "type": "LOCATION",
+      "salience": 0.004387225955724716,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1203,
-            "content": "donor"
+            "content": "areas",
+            "beginOffset": 1133
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "donor",
-      "salience": 0.004380028,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.0043800282292068005,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1308,
-            "content": "private equity firm"
+            "content": "donor",
+            "beginOffset": 1203
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "private equity firm",
-      "salience": 0.0043736887,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "salience": 0.004373688716441393,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1295,
-            "content": "money"
+            "content": "private equity firm",
+            "beginOffset": 1308
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "money",
-      "salience": 0.0043736887,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.004373688716441393,
       "mentions": [
         {
           "text": {
-            "beginOffset": 593,
-            "content": "portions"
+            "content": "money",
+            "beginOffset": 1295
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "portions",
-      "salience": 0.004205486,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.0042054858058691025,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1755,
-            "content": "friends"
+            "content": "portions",
+            "beginOffset": 593
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "friends",
-      "salience": 0.0042048856,
-      "type": "PERSON"
-    },
-    {
+      "type": "PERSON",
+      "salience": 0.004204885568469763,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1984,
-            "content": "company"
+            "content": "friends",
+            "beginOffset": 1755
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "company",
-      "salience": 0.0035781239,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "salience": 0.0035781238693743944,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1615,
-            "content": "total"
+            "content": "company",
+            "beginOffset": 1984
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "total",
-      "salience": 0.0032917482,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.0032917482312768698,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1807,
-            "content": "interior"
+            "content": "total",
+            "beginOffset": 1615
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "interior",
-      "salience": 0.003287891,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.003287890926003456,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1870,
-            "content": "hometown"
+            "content": "interior",
+            "beginOffset": 1807
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "hometown",
-      "salience": 0.0032843733,
-      "type": "LOCATION"
-    },
-    {
+      "type": "LOCATION",
+      "salience": 0.0032843733206391335,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1832,
-            "content": "headquarters"
+            "content": "hometown",
+            "beginOffset": 1870
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "headquarters",
-      "salience": 0.0032843733,
-      "type": "LOCATION"
-    },
-    {
+      "type": "LOCATION",
+      "salience": 0.0032843733206391335,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1996,
-            "content": "contract"
+            "content": "headquarters",
+            "beginOffset": 1832
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
-      "name": "contract",
-      "salience": 0.0032635855,
-      "type": "OTHER"
+      ]
     },
     {
+      "name": "contract",
+      "type": "OTHER",
+      "salience": 0.003263585502281785,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1335,
-            "content": "HBC Investments"
+            "content": "contract",
+            "beginOffset": 1996
           },
-          "type": "PROPER"
+          "type": "COMMON"
         }
-      ],
+      ]
+    },
+    {
+      "name": "HBC Investments",
+      "type": "OTHER",
       "metadata": {
         "mid": "/g/11c2mx32h_"
       },
-      "name": "HBC Investments",
-      "salience": 0.0030338536,
-      "type": "OTHER"
-    },
-    {
+      "salience": 0.0030338536016643047,
       "mentions": [
         {
           "text": {
-            "beginOffset": 2059,
-            "content": "people"
+            "content": "HBC Investments",
+            "beginOffset": 1335
           },
-          "type": "COMMON"
+          "type": "PROPER"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "people",
-      "salience": 0.0026121547,
-      "type": "PERSON"
-    },
-    {
+      "type": "PERSON",
+      "salience": 0.002612154697999358,
       "mentions": [
         {
           "text": {
-            "beginOffset": 2087,
-            "content": "power"
+            "content": "people",
+            "beginOffset": 2059
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "power",
-      "salience": 0.0026121547,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.002612154697999358,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1920,
-            "content": "connections"
+            "content": "power",
+            "beginOffset": 2087
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "connections",
-      "salience": 0.002296426,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.00229642610065639,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1963,
-            "content": "suspicions"
+            "content": "connections",
+            "beginOffset": 1920
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "suspicions",
-      "salience": 0.002296426,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.00229642610065639,
       "mentions": [
         {
           "text": {
-            "beginOffset": 2035,
-            "content": "sake"
+            "content": "suspicions",
+            "beginOffset": 1963
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "sake",
-      "salience": 0.0022943327,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.0022943327203392982,
       "mentions": [
         {
           "text": {
-            "beginOffset": 2047,
-            "content": "millions"
+            "content": "sake",
+            "beginOffset": 2035
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "millions",
-      "salience": 0.0022943327,
-      "type": "PERSON"
-    },
-    {
+      "type": "PERSON",
+      "salience": 0.0022943327203392982,
       "mentions": [
         {
           "text": {
-            "beginOffset": 2119,
-            "content": "fishiness"
+            "content": "millions",
+            "beginOffset": 2047
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "fishiness",
-      "salience": 0.0022943327,
-      "type": "OTHER"
-    },
-    {
+      "type": "OTHER",
+      "salience": 0.0022943327203392982,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1448,
-            "content": "election"
+            "content": "fishiness",
+            "beginOffset": 2119
           },
           "type": "COMMON"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
       "name": "election",
-      "salience": 0.002051247,
-      "type": "EVENT"
-    },
-    {
+      "type": "EVENT",
+      "salience": 0.002051247050985694,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1639,
-            "content": "Republican National Committee"
+            "content": "election",
+            "beginOffset": 1448
           },
-          "type": "PROPER"
+          "type": "COMMON"
         }
-      ],
-      "metadata": {
-        "mid": "/m/01w5q_",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Republican_National_Committee"
-      },
+      ]
+    },
+    {
       "name": "Republican National Committee",
-      "salience": 0.001945488,
-      "type": "ORGANIZATION"
-    },
-    {
+      "type": "ORGANIZATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Republican_National_Committee",
+        "mid": "/m/01w5q_"
+      },
+      "salience": 0.0019454880384728312,
       "mentions": [
         {
           "text": {
-            "beginOffset": 1523,
-            "content": "amount"
-          },
-          "type": "COMMON"
-        }
-      ],
-      "metadata": {},
-      "name": "amount",
-      "salience": 0.0018688936,
-      "type": "OTHER"
-    },
-    {
-      "mentions": [
-        {
-          "text": {
-            "beginOffset": 1563,
-            "content": "general election campaign"
-          },
-          "type": "COMMON"
-        }
-      ],
-      "metadata": {},
-      "name": "general election campaign",
-      "salience": 0.001643148,
-      "type": "EVENT"
-    },
-    {
-      "mentions": [
-        {
-          "text": {
-            "beginOffset": 1479,
-            "content": "primary election campaign"
-          },
-          "type": "COMMON"
-        }
-      ],
-      "metadata": {},
-      "name": "primary election campaign",
-      "salience": 0.001643148,
-      "type": "EVENT"
-    },
-    {
-      "mentions": [
-        {
-          "text": {
-            "beginOffset": 1599,
-            "content": "maximum"
-          },
-          "type": "COMMON"
-        }
-      ],
-      "metadata": {},
-      "name": "maximum",
-      "salience": 0.0014431586,
-      "type": "OTHER"
-    },
-    {
-      "mentions": [
-        {
-          "text": {
-            "beginOffset": 1411,
-            "content": "Trump Victory PAC"
+            "content": "Republican National Committee",
+            "beginOffset": 1639
           },
           "type": "PROPER"
         }
-      ],
-      "metadata": {},
+      ]
+    },
+    {
+      "name": "amount",
+      "type": "OTHER",
+      "salience": 0.001868893625214696,
+      "mentions": [
+        {
+          "text": {
+            "content": "amount",
+            "beginOffset": 1523
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "general election campaign",
+      "type": "EVENT",
+      "salience": 0.0016431480180472136,
+      "mentions": [
+        {
+          "text": {
+            "content": "general election campaign",
+            "beginOffset": 1563
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "primary election campaign",
+      "type": "EVENT",
+      "salience": 0.0016431480180472136,
+      "mentions": [
+        {
+          "text": {
+            "content": "primary election campaign",
+            "beginOffset": 1479
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "maximum",
+      "type": "OTHER",
+      "salience": 0.0014431586023420095,
+      "mentions": [
+        {
+          "text": {
+            "content": "maximum",
+            "beginOffset": 1599
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
       "name": "Trump Victory PAC",
-      "salience": 0.00085268135,
-      "type": "ORGANIZATION"
+      "type": "ORGANIZATION",
+      "salience": 0.000852681347168982,
+      "mentions": [
+        {
+          "text": {
+            "content": "Trump Victory PAC",
+            "beginOffset": 1411
+          },
+          "type": "PROPER"
+        }
+      ]
     }
   ],
   "language": "en"
