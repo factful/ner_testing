@@ -1,5 +1,5 @@
 here = File.dirname(__FILE__)
-require File.join(here, 'azure.rb')
+require_relative 'azure'
 
 azure = Azure.new(File.join(here, 'credentials.json'))
 
