@@ -32,3 +32,9 @@ gcloud ml language analyze-entities --content-file=./documents/new-republic-whit
 ## Outputs
 
 Google Cloud Platform APIs return their results using the Protobuf format, and so users will be reliant on the Protobuf library for their programming language.  Most of these libraries have ways to turn these Protobuf objects into JSON.
+
+Despite using google's official tools to read and analyze our files, Ted had trouble with google's output.
+
+Google gives back a list of entities, and mentions of each entity, and where they show up in the text.  Unfortunately, the start and end positions of where the mentions appear are listed as the number of bytes from the beginning of the file, rather than the number of _characters_ from the beginning of the file.
+
+This requires some rejiggering in order to correctly tabulate.
