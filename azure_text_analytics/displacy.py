@@ -15,25 +15,27 @@ def htmlize(text_path, entity_path):
                 ent_name = entity['name']
                 ent_type = entity.get('type', "unk")
                 token_count = len(entity['matches'])
-                print("=======================")
-                print(f"{ent_name} | {ent_type} | {token_count}")
+                #print("=======================")
+                #print(f"{ent_name} | {ent_type} | {token_count}")
                 for match in entity['matches']:
                     start_position = match["offset"]
                     end_position = start_position + match["length"]
-                    print("------------------------")
-                    print(f"Looking for: \"{match['text']}\" {start_position} | Found: {text[start_position:end_position]}")
+                    #print("------------------------")
+                    #print(f"Looking for: \"{match['text']}\" {start_position} | Found: {text[start_position:end_position]}")
                     token = {
-                        'label': ent_type,
                         'start': start_position,
-                        'end': end_position
+                        'end': end_position,
+                        'label': ent_type
                     }
                     token_list.append(token)
 
-            render_data = [{
+            render_data = {
                 'text': text,
                 'ents': token_list
-            }]
-            #print(render_data)
+            }
+            for ent in sorted(render_data['ents'], key=lambda ent: ent['start']):
+                print(ent)
+
             html = displacy.render(render_data, style="ent", manual=True)
             html_path = os.path.join(entity_path.replace('.json', '.html'))
             with open(html_path, 'w') as out:
