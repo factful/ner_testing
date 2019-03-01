@@ -1,6 +1,6 @@
 # Google Cloud Natural Language
 
-Google Cloud Platform has a Name Entity Recognition API.  
+Google Cloud Platform has a Named Entity Recognition (NER) API.  Their NER API is part of their natural language offerings alongside their Optical Character Recognition
 
 ## Installation & Usage
 

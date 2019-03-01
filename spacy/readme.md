@@ -1,6 +1,8 @@
 # SpaCy
 
-SpaCy is a recent Natural Language Processing (NLP) toolkit written in C and Python.  SpaCy was written with the explicit intent that developers could carry projects built on SpaCy into production with relative ease.  
+SpaCy is a recent Natural Language Processing (NLP) toolkit written in C and Python.  The choice of two languages is convenient so that users have the niceties of programming in Python, while all of the computationally hard parts of SpaCy can be fast, because they're written in C.
+
+SpaCy was written with the explicit intent that developers could carry projects built on SpaCy into production with relative ease.
 
 SpaCy has [excellent (and configurable) installation instructions](https://spacy.io/usage/).
 
