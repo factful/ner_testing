@@ -39,4 +39,28 @@ Google gives back a list of entities, and mentions of each entity, and where the
 
 This requires some rejiggering in order to correctly tabulate.
 
-[Google's entity types](https://cloud.google.com/natural-language/docs/reference/rest/v1/Entity#Type)
+[Google's entity types][google_entity_types]
+
+# Checklist
+
+- Does it cost money?  Yes
+    - how much?
+- Is it open source?  No
+- What kinds of entities does it identify? [They have a short list][google_entity_types]
+- Does it require downloading model data? no
+- Does it have a CLI? yes
+- Can it be integrated into another program? yes
+    - If so, what programming languages? A lot.  (go find a list)
+- What kind of output do you get? It's all protobufs.
+- How fast is it? Fast.
+- Does it provide cross referencing of entities? Yes
+    - between matches in the output? Yes
+    - to wikipedia, or another knowledge base? Wikipedia & Knowledge Graph Ids.
+- Qualitatively...
+    - Did it miss entities?  A few?  A lot?
+        - Even with relatively few types, GCP matches A LOT
+    - Did it misclassify entities?
+        - Yeah, although understandable things, like confusing references to "Whitefish" as the location rather than the energy company, or Maria as a person rather than the hurricane.  Although it also misclassified "Hurricane Maria" as a person.
+        - It's overly aggressive.  It tags things that aren't relevant.
+
+[google_entity_types]: https://cloud.google.com/natural-language/docs/reference/rest/v1/Entity#Type
