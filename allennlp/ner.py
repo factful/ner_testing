@@ -46,9 +46,11 @@ for word in results['words']:
     token_offsets.append((word_start,word_end))
     position = word_end
 
-# Before we can produce a list of entities, we have
-# to scan all of the tokens and stitch the multi-token
-# entities together.
+# Right now we have a bunch of parts that have to be filtered
+# and composed into coherent data.
+#
+# First we'll filter out all of the tokens that aren't
+# part of an entity.
 entity_tokens = []
 triples = zip(token_offsets, results['words'], results['tags'])
 for positions, word, tag in triples:
@@ -61,6 +63,9 @@ for positions, word, tag in triples:
       'tag': tag
     })
 
+# Now that we have a list of all of the tokens which are
+# part of an entity in `entity_tokens`, we can glom them
+# together.
 entities = []
 token_iterator = iter(entity_tokens)
 for token in token_iterator:
@@ -92,12 +97,19 @@ for token in token_iterator:
     #print("-------------------")
     #print("Tokens:")
     #print(tokens)
+
+    # then slice the original text from the beginning
+    # of the first token in the entity, to the end of 
+    # the last token in the entity.
+    entity_start = tokens[0]['start']
+    entity_end = tokens[-1]['end']
+    name = text[entity_start:entity_end]
     entities.append({
-      'name': text[tokens[0]['start']:tokens[-1]['end']],
+      'name': name,
       'type': label,
       'matches': [{
-        'start': tokens[0]['start'],
-        'end': tokens[-1]['end'],
+        'start': entity_start,
+        'end':   entity_end,
         'label': label
       }]
     })
@@ -107,18 +119,6 @@ for token in token_iterator:
     print("Not certain what to do with this token:")
     print(token)
 
-
-#
-#    entities.append({
-#      'name': word,
-#      'type': tag,
-#      'matches': [{
-#        'start': positions[0],
-#        'end': positions[1],
-#        'label': tag
-#      }]
-#    })
-#
 dirname = "."
 basename = os.path.basename(input_path)
 jsonpath = os.path.join(dirname, basename.replace('.txt', '.allennlp.json'))
@@ -126,6 +126,3 @@ with open(jsonpath, 'w') as file:
   data = json.dumps({'entities': entities})
   file.write(data)
   print(data)
-
-#for word, tag in zip(results["words"], results["tags"]):
-#    print(f"{word}\t{tag}")
