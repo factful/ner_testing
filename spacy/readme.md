@@ -10,6 +10,8 @@ SpaCy has [excellent (and configurable) installation instructions](https://spacy
 
 SpaCy doesn't really have a default output.  It's NER tools take [a document](https://spacy.io/api/doc) as a string and breaks it into [spans](https://spacy.io/api/span).  SpaCy does include [`displacy`](https://spacy.io/usage/visualizers), a visualization tool which can display data produced by SpaCy.
 
+SpaCy lists [all of the entities](https://spacy.io/api/annotation#named-entities) tags they have (based on Ontonote), and an explanation of each tag.
+
 ## Interesting but not relevant
 
 - [Break up of the founding SpaCy team](https://github.com/explosion/spaCy/issues/462)

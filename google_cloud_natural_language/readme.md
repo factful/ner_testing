@@ -38,3 +38,5 @@ Despite using google's official tools to read and analyze our files, Ted had tro
 Google gives back a list of entities, and mentions of each entity, and where they show up in the text.  Unfortunately, the start and end positions of where the mentions appear are listed as the number of bytes from the beginning of the file, rather than the number of _characters_ from the beginning of the file.
 
 This requires some rejiggering in order to correctly tabulate.
+
+[Google's entity types](https://cloud.google.com/natural-language/docs/reference/rest/v1/Entity#Type)
