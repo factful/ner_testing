@@ -11,6 +11,8 @@ from flair.models import SequenceTagger
 input_path = sys.argv[1]
 text      = open(input_path).read()
 sentence  = Sentence(text)
+# This downloads a bunch of data by default.
+# it'd be nice to be able to check if it's already installed
 tagger    =  SequenceTagger.load('ner')
 tagger.predict(sentence)
 
