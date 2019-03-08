@@ -28,7 +28,8 @@ SpaCy lists [all of the entities][spacy_entity_list] tags they have (based on On
 - Is it open source?    Yes.
 - Does it require downloading model data? Yes
     - how large is the data?
-    - are there different prebuilt models?
+    - are there different prebuilt models? Yes
+        - You'll get different behavior depending on what model you use.  Check out [SpaCy's model page for a list](https://spacy.io/models/en).  They range in size, 35mb, 115mb and 812mb
 - What kinds of entities does it identify?  [It's OntoNote based][spacy_entity_list].
 - Does it have a CLI?  No.
 - Can it be integrated into another program?  Yes.
@@ -40,6 +41,7 @@ SpaCy lists [all of the entities][spacy_entity_list] tags they have (based on On
     - Did it miss entities?  A few?  A lot?
     - Did it misclassify entities?
         - SpaCy doesn't handle unicode well & misclassified smart quotes.
+        - It misclassified "Rebuiding Puerto Rico" which is not an organization, just a gerund at the start of a sentence.
 
 
 [spacy_entity_list]: https://spacy.io/api/annotation#named-entities

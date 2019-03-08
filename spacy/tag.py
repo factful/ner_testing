@@ -2,8 +2,7 @@ import json
 import spacy
 from spacy import displacy
 
-import xx_ent_wiki_sm
-nlp = xx_ent_wiki_sm.load()
+nlp = spacy.load('en_core_web_lg')
 
 import glob
 import os
@@ -16,6 +15,7 @@ for input_path in glob.glob(os.path.join(dirname, '..', 'documents', '*.txt')):
   #    print(ent.text, ent.start_char, ent.end_char, ent.label_)
   #displacy.serve(doc, style='ent')
 
+  print("===============")
   ents = []
   for ent in doc.ents:
     entData = { 
