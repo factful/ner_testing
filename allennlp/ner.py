@@ -1,6 +1,5 @@
 import sys
 import os
-from itertools import takewhile
 import json
 
 import allennlp
