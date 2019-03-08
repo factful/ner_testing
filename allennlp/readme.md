@@ -54,5 +54,8 @@ They're broken down into two pieces separated by a hyphen.  The first piece indi
 - Qualitatively...
     - Did it miss entities?  A few?  A lot?
         - It's pretty good!
+        - it's the only one that correctly classified "Hurricane Maria" correctly.
+        - 
     - Did it misclassify entities?
         - It's pretty good!
+        - It still misclassifed "Maria"
