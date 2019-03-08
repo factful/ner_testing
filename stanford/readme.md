@@ -6,6 +6,7 @@ Instead we'll have to use [StanfordNLP's Java stack](https://nlp.stanford.edu/so
 
 - [Corenlp.run](http://corenlp.run/)
 - [Original Stanford NER demo site](http://nlp.stanford.edu:8080/ner/process)
+- [The Stanford NER paper](https://nlp.stanford.edu/~manning/papers/gibbscrf3.pdf)
 
 # Checklist
 

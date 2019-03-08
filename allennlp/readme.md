@@ -16,7 +16,7 @@ So, breaking this description down...
 - It is a [biLSTM with a CRF layer](https://arxiv.org/abs/1508.01991)
     - a bidirectional Long Short-Term Memory (LSTM) is just a thing that can read a string of tokens and for any given token, make decisions about that token based on what tokens came before AND after that token.
     - a Conditional Random Field layer is 
-- It uses [ELMo embeddings](https://allennlp.org/elmo)
+- It uses [ELMo embeddings](https://allennlp.org/elmo).
 
 ## Getting the CLI to work
 

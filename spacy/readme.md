@@ -19,6 +19,8 @@ SpaCy lists [all of the entities][spacy_entity_list] tags they have (based on On
 - [SpaCy's page at launch](https://web.archive.org/web/20150126012110/http://honnibal.github.io/spaCy/)
 - [Explosion.ai's blog](https://explosion.ai/blog)
 - [SpaCy benchmarks & stats](https://spacy.io/usage/facts-figures)
+- [SpaCy Architecture](https://spacy.io/api/#nn-model)
+- [SpaCy's machine learning lib](https://github.com/explosion/thinc)
 
 # Checklist
 
