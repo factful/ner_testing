@@ -17,7 +17,7 @@ data.children.reduce(0) do |position, span|
   if span.name != 'text'
     entities.push({
       name: span.text,
-      tag:  span.name,
+      type: span.name,
       matches:[{
         'start': position,
         'end':   end_position,
