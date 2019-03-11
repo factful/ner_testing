@@ -13,7 +13,7 @@
 - [Stanford CoreNLP](https://github.com/explosion/spacy-stanfordnlp)
 - Lightner
 - [DBPedia Spotlight](https://www.dbpedia-spotlight.org/)
-- 
+- OpenCalais
 
 ## Tools we tried to test
 
