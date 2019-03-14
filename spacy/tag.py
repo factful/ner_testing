@@ -1,11 +1,20 @@
+import glob
+import os
+import sys
 import json
 import spacy
 from spacy import displacy
 
-nlp = spacy.load('en_core_web_lg')
+model_size = sys.argv[1].lower()
 
-import glob
-import os
+if model_size == "small":
+  model = 'en_core_web_sm'
+elif model_size == "large":
+  model = 'en_core_web_lg'
+else:
+  raise Exception("model size should be 'small' or 'large'")
+
+nlp = spacy.load(model)
 
 dirname = os.path.dirname(__file__)
 for input_path in glob.glob(os.path.join(dirname, '..', 'documents', '*.txt')):
@@ -31,10 +40,10 @@ for input_path in glob.glob(os.path.join(dirname, '..', 'documents', '*.txt')):
 
   html = displacy.render(doc, style='ent')
   basename = os.path.basename(input_path)
-  jsonpath = os.path.join(dirname, basename.replace('.txt', '.spacy.json'))
+  jsonpath = os.path.join(dirname, basename.replace('.txt', f'.spacy.{model_size}.json'))
   with open(jsonpath, 'w') as jsonFile:
     json.dump({"entities": ents}, jsonFile)
-  outpath = os.path.join(dirname, basename.replace('.txt', '.html'))
+  outpath = os.path.join(dirname, basename.replace('.txt', f'.spacy.{model_size}.html'))
   with open(outpath, 'w') as outFile:
     outFile.write(html)
 
